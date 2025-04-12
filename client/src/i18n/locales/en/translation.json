@@ -1,0 +1,62 @@
+{
+  "title": "The Art of <1>Hospitality</1>",
+  "subtitle": "A comfortable holiday is waiting for you.",
+  "contactUs": "Contact Us",
+  "navbarReservation": "Book",
+  "menu": "Menu",
+  "whyUs": "Why Us?",
+  "menuRooms": "Rooms",
+  "gallery": "Gallery",
+  "contact": "Contact",
+  "ourAddress": "Our Address",
+  "socialMedia": "Social Media Accounts",
+  "selectDates": "Select Dates",
+  "adults": "Adults",
+  "children": "Children",
+  "checkAvailability": "Check Availability",
+  "makeReservation": "Make a Reservation",
+  "perfectSpot": "The <1>Heart</1> of Perfection",
+  "promotionalPost": "Maxx Royal Resorts was founded in 2011 with the belief that luxury travel should not be limited. With an approach rooted in Turkish hospitality, we are dedicated to providing impeccable hospitality to our guests. We wholeheartedly believe that the hospitality experience should be authentic, just like the guests we serve, who inspire us.",
+  "promotionalPost2": "What you will experience here is more than a holiday, it is an indescribable experience that arouses different and sincere emotions in everyone.",
+  "explore": "EXPLORE MAXX ROYAL",
+  "personalService": "Personalized Services",
+  "personalServiceParagraph": "We offer personalised services with the awareness that every guest is very valuable.",
+  "personalServiceParagraph2": "While you focus on the special moments of your holiday, we take care of all your needs with Maxx Assistant service. All your requests and requests regarding your holiday are resolved by your personal holiday assistant.",
+  "roomService": "In-Room Dining Just for You",
+  "theBest": "One of the World's Best",
+  "theBestParagraph": "Maxx Royal is part of The Leading Hotels of the World, an organisation of high-standard luxury hotels.",
+  "theBestParagraph2": "With 90 years of commitment to delivering the perfect hospitality experience, being recognised in The Leading Hotels of the World is a testament to the future of Maxx Royal services.",
+  "galleryTitle": "Maxx Royal Gallery",
+  "privacyPolicy": "KVKK and Privacy Policy",
+  "termsOfUse": "Website Terms of Use",
+  "cookies": "Cookies",
+  "close": "Close",
+  "exploreAbout": "Explore",
+  "whyRoyal": "Why Maxx Royal?",
+  "unlimitedExperience": "Unlimited Experience",
+  "unlimitedExperienceParagraph": "The unique experiences we create distinguish us as one of the pioneers of the hospitality industry. With our world-class restaurants, wellness programme, award-winning kids club and personalised services, we offer unique and impressive destinations where every guest will meet their expectations and find a piece of themselves and their dreams.",
+  "unlimitedExperienceParagraph2": "Our aim is to create extraordinary experiences that leave lasting traces beyond a holiday, where you will gain new awareness.",
+  "otherQuestions": "Other Questions:",
+
+  "rooms": {
+    "sectionTitle": "Our most ",
+    "comfortable": "comfortable ",
+    "roomsText": "rooms for you",
+    "startingFrom": "starting from",
+    "standard": {
+      "title": "Standard Rooms",
+      "description": "Standard rooms equipped with comfy bed, air conditioning, and minibar.",
+      "price": "₺1500 / night"
+    },
+    "deluxe": {
+      "title": "Deluxe Rooms",
+      "description": "Spacious, balcony access and city view for a deluxe experience.",
+      "price": "₺2500 / night"
+    },
+    "family": {
+      "title": "Family Suites",
+      "description": "Large suites where your family can feel comfortable.",
+      "price": "₺3500 / night"
+    }
+  }
+}

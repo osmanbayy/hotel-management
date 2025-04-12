@@ -1,0 +1,62 @@
+{
+  "title": "<1>Otelcilik</1> Sanatı",
+  "subtitle": "Konforlu bir tatil sizi bekliyor.",
+  "contactUs": "Bize Ulaşın",
+  "selectDates": "Tarih Seç",
+  "navbarReservation": "Rezervasyon",
+  "menu": "Menü",
+  "whyUs": "Neden Biz?",
+  "menuRooms": "Odalar",
+  "gallery": "Galeri",
+  "contact": "İletişim",
+  "ourAddress": "Adresimiz",
+  "socialMedia": "Sosyal Medya Hesaplarımız",
+  "adults": "Yetişkin",
+  "children": "Çocuk",
+  "checkAvailability": "Müsaitlik Sorgula",
+  "makeReservation": "Rezervasyon Yapın",
+  "perfectSpot": "Mükemmelliğin <1>Kalp</1> Noktası",
+  "promotionalPost": "Maxx Royal Resorts 2011 yılında lüks seyahatin sınırlandırılmaması gerektiği inancıyla kuruldu. Kendimizi kökleri Türk misafirperverliğine uzanan bir yaklaşımla, misafirlerimizi kusursuz bir şekilde ağırlamaya adadık. Tüm kalbimizle inandığımız ilkemiz konaklama deneyiminin özgün olması, tıpkı hizmet sunduğumuz, bize ilham veren misafirlerimiz gibi.",
+  "promotionalPost2": "Burada yaşayacağınız bir tatilden öte, herkeste farklı ve içten duygular uyandıran tarifsiz bir deneyim.",
+  "explore": "MAXX ROYAL'İ KEŞFEDİN",
+  "personalService": "Kişiye Özel Hizmetler",
+  "personalServiceParagraph": "Her misafirin çok değerli olduğununun bilinciyle kişiye özel hizmetler sunuyoruz.",
+  "personalServiceParagraph2": "Siz tatilinizin özel anlarına odaklanırken Maxx Asistan hizmetiyle tüm ihtiyaçlarınızla ilgileniyoruz. Tatilinize dair her türlü talep ve istekleriniz kişisel tatil asistanınız tarafından çözüme ulaştırılıyor.",
+  "roomService": "Size Özel Odanıza Yemek Servisi",
+  "theBest": "Dünyanın En İyilerinden Biri",
+  "theBestParagraph": "Maxx Royal, yüksek standartlı lüks otellerin yer aldığı, The Leading Hotels of the World'ün bir parçası.",
+  "theBestParagraph2": "90 yıl boyunca kusursuz konaklama deneyimi yaşatma taahhüdüyle hareket eden The Leading Hotels of the World’de yer almak, Maxx Royal hizmetlerinin geleceğine dair bir kanıt niteliğinde.",
+  "galleryTitle": "Maxx Royal Galeri",
+  "privacyPolicy": "KVKK ve Kullanım Koşulları",
+  "termsOfUse": "Websitesi Kullanım Koşulları",
+  "cookies": "Çerezler",
+  "close": "Kapat",
+  "exploreAbout": "Keşfet",
+  "whyRoyal": "Neden Maxx Royal?",
+  "unlimitedExperience": "Sınırsız Deneyimler",
+  "unlimitedExperienceParagraph": "Yarattığımız benzersiz deneyimler, bizi konaklama sektörünün öncülerinden biri olarak öne çıkarıyor. Dünya standartlarındaki restoranlarımız, sağlıklı yaşam programımız, ödüllü çocuk kulübümüz ve kişiselleştirilmiş hizmetlerimizle her misafirin beklentilerini karşılayacağı, kendinden ve hayallerinden bir parça bulacağı eşsiz ve etkileyici destinasyonlar sunuyoruz.",
+  "unlimitedExperienceParagraph2": "Amacımız bir tatilin ötesinde kalıcı izler bırakan, yeni farkındalıklar edineceğiniz olağanüstü deneyimler yaratmak.",
+  "otherQuestions": "Diğer Sorularınız:",
+
+  "rooms": {
+    "sectionTitle": "Sizler için en ",
+    "comfortable": "konforlu ",
+    "roomsText": "odalarımız",
+    "startingFrom": "’den başlayan fiyatlar",
+    "standard": {
+      "title": "Standart Odalarımız",
+      "description": "Konforlu yatak, klima ve minibar ile donatılmış standart odalar.",
+      "price": "1500₺ / gece"
+    },
+    "deluxe": {
+      "title": "Deluxe Odalarımız",
+      "description": "Geniş alan, balkon ve şehir manzarası ile deluxe deneyim.",
+      "price": "2500₺ / gece"
+    },
+    "family": {
+      "title": "Aile Süit'lerimiz",
+      "description": "Ailenizle rahat edebileceğiniz geniş süitler.",
+      "price": "3500₺ / gece"
+    }
+  }
+}
