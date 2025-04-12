@@ -55,7 +55,7 @@ export const ReservationModal = ({ isOpen, onClose }) => {
 
   return (
     <div
-      className={`fixed top-0 w-full h-2/3 bg-neutral-700 z-50 transition-transform duration-500 ${
+      className={`fixed top-0 w-full h-2/3 bg-neutral-700 !z-50 transition-transform duration-500 ${
         isOpen ? "translate-y-0" : "-translate-y-full opacity-0"
       }`}
     >
@@ -70,7 +70,7 @@ export const ReservationModal = ({ isOpen, onClose }) => {
           </button>
         </div>
         <div className="w-full h-[1px] bg-white/50"></div>
-        <div className="py-15 flex flex-col gap-5 justify-center items-center">
+        <div className="pt-15 flex flex-col gap-5 justify-center items-center">
           <div className="flex justify-center">
             <img
               src="https://www.maxxroyal.com/media/cn3jd3df/logo.svg?height=50"
