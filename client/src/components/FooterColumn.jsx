@@ -7,7 +7,7 @@ export default function FooterColumn({ title, items }) {
       {items.map((item, idx) => (
         <p
           key={idx}
-          className="text-gray-500 text-md font-semibold tracking-wide cursor-pointer"
+          className="text-gray-500 text-md md:font-semibold md:tracking-wide cursor-pointer"
         >
           {item}
         </p>
