@@ -7,7 +7,6 @@ import { RoomsPromotion } from "../components/RoomsPromotion";
 import ReservationNav from "../components/ReservationNav";
 
 export default function Home() {
-
   const { t } = useTranslation();
 
   return (
@@ -21,6 +20,7 @@ export default function Home() {
           loop
           muted
           playsInline
+          poster="/contact-photo.jpg"
         />
         <div className="absolute inset-0 bg-opacity-50 z-20 flex items-center justify-center text-center">
           <div className="text-white px-6">
