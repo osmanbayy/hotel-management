@@ -82,7 +82,7 @@ export default function ReservationNav() {
 
         {showCalendar && (
           <div
-            className={`absolute ${
+            className={`hidden md:block absolute ${
               calendarPosition === "top" ? "bottom-20" : "top-14"
             } z-50`}
           >
@@ -109,7 +109,7 @@ export default function ReservationNav() {
 
         {showGuestDropdown && (
           <div
-            className={`absolute ${
+            className={`hidden md:block absolute ${
               guestPosition === "top" ? "bottom-20" : "top-14"
             } z-50`}
           >
