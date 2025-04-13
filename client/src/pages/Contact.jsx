@@ -25,7 +25,7 @@ export const Contact = () => {
           </h1>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto py-10 flex md:flex-row flex-col justify-evenly items-center">
+      <div className="max-w-7xl mx-auto py-10 gap-10 flex md:flex-row flex-col justify-evenly items-center">
         <div className="flex justify-start items-start">
           <MapComponent />
         </div>

@@ -32,7 +32,7 @@ export const RoomsPromotion = () => {
   return (
     <section className="px-4">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl mb-10 text-center capitalize">
+        <h1 className=" text-3xl md:text-4xl mb-10 text-center capitalize">
           {t("rooms.sectionTitle")}
           <span className="italic text-red-500 font-light">
             {t("rooms.comfortable")}

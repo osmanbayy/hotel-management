@@ -41,7 +41,7 @@ export default function Home() {
       <ReservationNav />
 
       <div className="flex flex-col items-center gap-10 mx-auto text-center max-w-5xl my-20 py-10 lg:py-20 px-5">
-        <h2 className="text-5xl">
+        <h2 className="md:text-5xl text-3xl">
           <Trans
             i18nKey="perfectSpot"
             components={{
@@ -49,11 +49,11 @@ export default function Home() {
             }}
           />
         </h2>
-        <p className="text-lg">{t("promotionalPost")}</p>
-        <p className="text-lg">{t("promotionalPost2")}</p>
+        <p className="text-md md:text-lg">{t("promotionalPost")}</p>
+        <p className="text-md md:text-lg">{t("promotionalPost2")}</p>
         <a
           href="/hakkimizda"
-          className="border p-5 border-black/50 tracking-wider font-semibold text-sm flex items-center justify-center gap-5 cursor-pointer hover:text-green-700 hover:border-white transition duration-300"
+          className="border p-3 md:p-5 border-black/50 tracking-wider font-semibold text-sm flex items-center justify-center gap-5 cursor-pointer hover:text-green-700 hover:border-white transition duration-300"
         >
           {t("explore")} <LuMoveRight size={22} />
         </a>
@@ -75,10 +75,10 @@ export default function Home() {
           <h1 className="font-serif text-3xl tracking-tight">
             {t("personalService")}
           </h1>
-          <p className="text-gray-600 text-lg">
+          <p className="text-gray-600 text-md md:text-lg">
             {t("personalServiceParagraph")}
           </p>
-          <p className="text-gray-600 text-lg">
+          <p className="text-gray-600 text-md md:text-lg">
             {t("personalServiceParagraph2")}
           </p>
         </div>
@@ -89,10 +89,10 @@ export default function Home() {
           <h1 className="font-serif text-3xl tracking-tight">
             {t("roomService")}
           </h1>
-          <p className="text-gray-600 text-lg">
+          <p className="text-gray-600 text-md md:text-lg">
             {t("personalServiceParagraph")}
           </p>
-          <p className="text-gray-600 text-lg">
+          <p className="text-gray-600 text-md md:text-lg">
             {t("personalServiceParagraph2")}
           </p>
         </div>
@@ -110,9 +110,9 @@ export default function Home() {
           <img src="/logo-joco.webp" alt="" />
         </div>
         <div className="flex flex-2/4 flex-col gap-5 text-center">
-          <h1 className="text-4xl font-serif tracking-wider">{t("theBest")}</h1>
-          <p className="text-lg text-gray-600">{t("theBestParagraph")}</p>
-          <p className="text-lg text-gray-600">{t("theBestParagraph2")}</p>
+          <h1 className="text-3xl md:text-4xl font-serif tracking-wider">{t("theBest")}</h1>
+          <p className="text-md md:text-lg text-gray-600">{t("theBestParagraph")}</p>
+          <p className="text-md md:text-lg text-gray-600">{t("theBestParagraph2")}</p>
         </div>
       </div>
     </div>

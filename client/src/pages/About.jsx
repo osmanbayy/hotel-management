@@ -17,7 +17,7 @@ export const About = () => {
           <h1 className="text-sm my-4 uppercase text-white font-semibold tracking-wider text-center">
             {t("exploreAbout")}
           </h1>
-          <h1 className="text-5xl font-serif italic text-white text-center">
+          <h1 className="text-3xl md:text-5xl font-serif italic text-white text-center">
             {t("whyRoyal")}
           </h1>
         </div>
@@ -35,10 +35,10 @@ export const About = () => {
           <h1 className="font-serif text-3xl tracking-tight">
             {t("unlimitedExperience")}
           </h1>
-          <p className="text-gray-600 text-lg">
+          <p className="text-gray-600 text-md md:text-lg">
             {t("unlimitedExperienceParagraph")}
           </p>
-          <p className="text-gray-600 text-lg">
+          <p className="text-gray-600 text-md md:text-lg">
             {t("unlimitedExperienceParagraph2")}
           </p>
         </div>
