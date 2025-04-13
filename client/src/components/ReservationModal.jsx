@@ -56,7 +56,9 @@ export const ReservationModal = ({ isOpen, onClose }) => {
   return (
     <div
       className={`fixed top-0 w-full h-2/3 bg-neutral-700 !z-50 transition-transform duration-500 ${
-        isOpen ? "translate-y-0" : "-translate-y-full opacity-0"
+        isOpen
+          ? "translate-y-0 opacity-100 visible pointer-events-auto"
+          : "-translate-y-full opacity-0 invisible pointer-events-none"
       }`}
     >
       <div className="w-full h-full p-6 flex flex-col gap-5">
@@ -89,7 +91,9 @@ export const ReservationModal = ({ isOpen, onClose }) => {
             <div className="relative">
               <button
                 ref={calendarButtonRef}
-                className={`${isDateRangeSelected ? 'flex-1' : 'w-64'} uppercase font-semibold tracking-widest text-white px-6 py-2 border cursor-pointer transition`}
+                className={`${
+                  isDateRangeSelected ? "flex-1" : "w-64"
+                } uppercase font-semibold tracking-widest text-white px-6 py-2 border cursor-pointer transition`}
                 onClick={handleCalendarToggle}
               >
                 {startDate && endDate
