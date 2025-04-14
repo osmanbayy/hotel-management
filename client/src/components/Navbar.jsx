@@ -128,7 +128,7 @@ export default function Navbar() {
 
       {/* Left Menu */}
       <div
-        className={`fixed top-0 left-0 h-full p-20 w-full md:w-[500px] bg-white shadow-lg z-60 transform transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 left-0 h-full p-20 w-full md:w-[500px] bg-white shadow-lg z-60 transform transition-transform duration-1000 ease-in-out ${
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >

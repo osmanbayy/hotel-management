@@ -55,7 +55,7 @@ export const ReservationModal = ({ isOpen, onClose }) => {
 
   return (
     <div
-      className={`fixed top-0 w-full h-3/4 bg-neutral-700 !z-50 transition-transform duration-500 ${
+      className={`fixed top-0 w-full h-3/4 bg-neutral-700 !z-50 transition-transform duration-1000 ${
         isOpen
           ? "translate-y-0 opacity-100 visible pointer-events-auto"
           : "-translate-y-full opacity-0 invisible pointer-events-none"
