@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import CalendarDropdown from "./CalendarDropdown";
 import GuestDropdown from "./GuestDropdown";
@@ -28,6 +28,9 @@ export default function ReservationNav() {
   const [startDate, endDate] = dateRange;
   const calendarButtonRef = useRef(null);
   const guestButtonRef = useRef(null);
+  const calendarRef = useRef(null);
+  const guestRef = useRef(null);
+
   const calculateDropdownPosition = useDropdownPosition()[1];
   const { t } = useTranslation();
 
@@ -57,6 +60,36 @@ export default function ReservationNav() {
     setShowModal(!showModal);
   };
 
+  // Dış tıklamada modal kapanması
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (
+        showCalendar &&
+        calendarRef.current &&
+        !calendarRef.current.contains(e.target) &&
+        calendarButtonRef.current &&
+        !calendarButtonRef.current.contains(e.target)
+      ) {
+        setShowCalendar(false);
+      }
+
+      if (
+        showGuestDropdown &&
+        guestRef.current &&
+        !guestRef.current.contains(e.target) &&
+        guestButtonRef.current &&
+        !guestButtonRef.current.contains(e.target)
+      ) {
+        setShowGuestDropdown(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [showCalendar, showGuestDropdown]);
+
   return (
     <div className="bg-zinc-800 w-full flex flex-col md:flex-row -my-20 justify-evenly items-center gap-4 md:gap-6 p-4 md:p-5 relative z-40">
       <button
@@ -82,6 +115,7 @@ export default function ReservationNav() {
 
         {showCalendar && (
           <div
+            ref={calendarRef}
             className={`hidden md:block absolute ${
               calendarPosition === "top" ? "bottom-20" : "top-14"
             } z-50`}
@@ -109,6 +143,7 @@ export default function ReservationNav() {
 
         {showGuestDropdown && (
           <div
+            ref={guestRef}
             className={`hidden md:block absolute ${
               guestPosition === "top" ? "bottom-20" : "top-14"
             } z-50`}
